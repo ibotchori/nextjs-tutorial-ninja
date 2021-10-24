@@ -7,7 +7,7 @@ export const getStaticProps = async () => {
   const data = await res.json();
 
   return {
-    // Set date from API to props
+    // Set data from API to props
     props: {
       ninjas: data,
     },
